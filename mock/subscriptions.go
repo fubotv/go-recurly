@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/blacklightcms/recurly"
+	"github.com/fubotv/go-recurly"
 )
 
 var _ recurly.SubscriptionsService = &SubscriptionsService{}
@@ -53,7 +53,7 @@ type SubscriptionsService struct {
 	OnResume      func(ctx context.Context, uuid string) (*recurly.Subscription, error)
 	ResumeInvoked bool
 
-	OnConvertTrial func(ctx context.Context, uuid string) (*recurly.Subscription, error)
+	OnConvertTrial      func(ctx context.Context, uuid string) (*recurly.Subscription, error)
 	ConvertTrialInvoked bool
 }
 

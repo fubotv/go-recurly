@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/blacklightcms/recurly"
-	"github.com/blacklightcms/recurly/mock"
+	"github.com/fubotv/go-recurly"
+	"github.com/fubotv/go-recurly/mock"
 	"github.com/google/go-cmp/cmp"
 )
 

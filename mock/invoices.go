@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/blacklightcms/recurly"
+	"github.com/fubotv/go-recurly"
 )
 
 var _ recurly.InvoicesService = &InvoicesService{}

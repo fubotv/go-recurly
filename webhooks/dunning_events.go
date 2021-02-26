@@ -1,6 +1,6 @@
 package webhooks
 
-import "github.com/blacklightcms/recurly"
+import "github.com/fubotv/go-recurly"
 
 // Dunning event constants.
 const (

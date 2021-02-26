@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/blacklightcms/recurly"
+	"github.com/fubotv/go-recurly"
 	"github.com/google/go-cmp/cmp"
 )
 
